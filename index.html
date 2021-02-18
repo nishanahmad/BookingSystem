@@ -201,7 +201,7 @@
 
                     var statuses = [
                         {name: "Ready", id: "Ready"},
-                        {name: "Cleanup", id: "Cleanup"},
+                        {name: "Occupied", id: "Occupied"},
                         {name: "Dirty", id: "Dirty"},
                     ];
 
@@ -253,7 +253,7 @@
             case "Dirty":
                 args.row.cssClass = "status_dirty";
                 break;
-            case "Cleanup":
+            case "Occupied":
                 args.row.cssClass = "status_cleanup";
                 break;
         }
